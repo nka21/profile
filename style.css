@@ -1,0 +1,113 @@
+/***** 全体 *****/
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.05em;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+
+/***** ヘッダー *****/
+.header img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/***** アイコン *****/
+.icon img {
+    margin: -100px auto 0;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 5px #fff;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+/***** 名前 *****/
+.name {
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+/***** 自己紹介 *****/
+.container{
+    padding-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+}
+.content{
+    margin: 5% 10%;
+}
+.about {
+
+}
+.about h2 {
+    color: #778899
+}
+.about p {
+    line-height: 1.75;
+}
+
+/***** 趣味 *****/
+#target {
+    float: left;
+    margin-right: 10px;
+    width: 120.55px;
+    height: 120.55px;
+}
+.hobbys h2 {
+    color: #778899
+}
+.hobbys {
+    display: flex;
+}
+.hobby_music, .hobby_game, .hobby_anime {
+    margin-right: 5%;
+    line-height: 0.3;
+}
+.content img {
+    margin: 0px;
+}
+
+/***** フッター *****/
+.sns-link {
+    border-top: 1px solid #ddd;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+}
+.sns-link li {
+    margin: 0 25px;
+}
+a, button {
+    cursor: pointer;
+    color: inherit;
+    transition-property: opacity,transform;
+    transition-duration: 0.5s;
+}
+a {
+    text-decoration: none;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+img {
+    max-width: 100%;
+    -webkit-backface-visibility: hidden;
+    image-rendering: -webkit-optimize-contrast;
+    vertical-align: bottom;
+}
+li {
+    list-style: none;
+}
+footer {
+    background-color: #d3d3d3
